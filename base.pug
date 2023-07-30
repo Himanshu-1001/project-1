@@ -1,0 +1,33 @@
+doctype html
+html
+    head
+        title My Online Meal 
+        block scripts 
+            script(src="../static/index.js") 
+        block style     
+            style 
+                include ../static/base.css
+      
+    body
+        nav#navbar 
+            div#logo
+                img(src='../img/logo.png')    
+                
+            ul 
+                li 
+                    a(href='/') Home
+                li 
+                    a(href='/about') About
+                li 
+                    a(href='/services') Services 
+                li 
+                    a(href='/contact') Contact
+            
+            button.btn Login
+            button.btn Sign up
+
+
+        block content
+        footer#footer 
+            | Copyright © 2021 RockstarAcademy.com All Rights are reserved
+    
