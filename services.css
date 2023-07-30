@@ -1,0 +1,12 @@
+#services-section{
+    background: url('../img/bg.jpg') no-repeat;
+    height: 360px;
+}
+
+#services-section h1{
+    color: white;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 37px;
+    padding-top: 124px;
+    padding-left: 127px;
+}

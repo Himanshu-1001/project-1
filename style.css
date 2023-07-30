@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Poppins&family=Sedgwick+Ave&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    background-color: #4e342e;
+    outline: none;
+    font-family: 'Sedgwick Ave';
+    position: sticky;
+    top: 0px;
+}
+#logo img{
+    height: 80px;
+    
+}
+
+#navbar ul{
+    display: flex;
+    width: 1180px;
+    align-items: center;
+}
+#navbar ul li{
+    list-style: none;
+    margin: 7px;
+}
+#navbar ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+.btn{
+    padding: 4px 7px;
+    margin: 0px 9px;
+    font-size: 18px;
+    /* border: 3px solid #5a2727; */
+    background-color: rgb(168, 66, 66);
+    color: white;
+    cursor: pointer; 
+}
+
+.btn:hover{
+    /* border: 3px solid #5a2727; */
+    /* border-radius: 10px; */
+    background-color: #c77e7ec4;
+    color: white;
+    
+}
+
+#intro-section{
+    outline: none;
+    background-image: url('../img/bg3.png') ;
+    height: 730px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#intro-section h1,h2{
+    color: white;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+#missions-section {
+    height: 350px;
+}
+#missions-section h1{
+    text-align: center;
+    padding: 15px 0px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+#missions{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.box{
+    height: 217px;
+    width: 20%;
+    border: 6px solid #ac6c6c;
+    border-radius: 25px;
+    margin: 0px 25px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.box h3{
+    text-align: center;
+    padding: 5px 0px;
+}
+
+#card-box{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 14px 0px;
+
+}
+#card-box img{
+    height: 144px;
+    outline: none;
+
+}
+
+#card-box p{
+    padding: 14px 0px;
+}
+
+ #sponsors-section{
+    background:no-repeat center/cover url('../img/bg2.jpg') ;
+    height: 300px;
+}
+#sponsors-section h1{
+    text-align: center;
+    padding: 15px 0px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+} 
+
+#sponsors{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sponsors img{
+    height: 125px;
+    margin: 20px 15px;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+
+

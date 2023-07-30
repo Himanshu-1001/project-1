@@ -1,0 +1,97 @@
+#intro-section{
+    outline: none;
+    background-image: url('../img/bg3.png') ;
+    height: 730px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#intro-section h1,h2{
+    color: white;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+#intro-section button{
+    margin: 5px 0px;
+    padding: 8px;
+    font-size: 19px;
+    background-color: brown;
+    color: white;
+    font-family: 'Sedgwick Ave';
+    border-radius: 10px;
+
+}
+#intro-section button:hover{
+    background-color: rgb(173, 79, 79);
+    color: white
+}
+
+#missions-section {
+    height: 350px;
+}
+#missions-section h1{
+    text-align: center;
+    padding: 15px 0px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+#missions{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.box{
+    height: 217px;
+    width: 20%;
+    border: 6px solid #ac6c6c;
+    border-radius: 25px;
+    margin: 0px 25px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.box h3{
+    text-align: center;
+    padding: 5px 0px;
+}
+
+#card-box{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 14px 0px;
+
+}
+#card-box img{
+    height: 144px;
+    outline: none;
+
+}
+
+#card-box p{
+    padding: 14px 0px;
+}
+
+ #sponsors-section{
+    background:no-repeat center/cover url('../img/bg2.jpg') ;
+    height: 300px;
+}
+#sponsors-section h1{
+    text-align: center;
+    padding: 15px 0px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+} 
+
+#sponsors{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sponsors img{
+    height: 125px;
+    margin: 20px 15px;
+}
